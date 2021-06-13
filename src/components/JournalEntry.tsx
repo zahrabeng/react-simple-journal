@@ -12,7 +12,7 @@ function JournalEntry(props: JournalEntryProps): JSX.Element {
     <section>
       <h2>{props.title}</h2>
       <p>
-        <i>Tags: {props.tags.join(', ')}</i>
+        <i>Tags: {props.tags.join(", ")}</i>
       </p>
       <p>{props.body}</p>
       <h4>Stats</h4>
@@ -27,4 +27,4 @@ function JournalEntry(props: JournalEntryProps): JSX.Element {
   );
 }
 
-export default JournalEntry
+export default JournalEntry;

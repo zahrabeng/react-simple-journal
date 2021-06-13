@@ -4,7 +4,7 @@ function PageHeader(): JSX.Element {
       <h1>Nichard's Journal</h1>
       <p>This is my public journal.</p>
     </header>
-  )
+  );
 }
 
-export default PageHeader
+export default PageHeader;

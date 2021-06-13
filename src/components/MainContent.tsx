@@ -1,4 +1,4 @@
-import JournalEntry from "./JournalEntry"
+import JournalEntry from "./JournalEntry";
 
 function MainContent(): JSX.Element {
   return (
@@ -11,7 +11,7 @@ function MainContent(): JSX.Element {
         }
         views={10}
         likes={5}
-        postDate={{ month: 'March', day: 3, year: 2003 }}
+        postDate={{ month: "March", day: 3, year: 2003 }}
       />
       <section>
         <h2>Writing poetry</h2>
@@ -53,4 +53,4 @@ function MainContent(): JSX.Element {
   );
 }
 
-export default MainContent
+export default MainContent;
